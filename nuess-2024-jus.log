@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.17)  24 DEC 2024 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.17)  24 DEC 2024 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,9 +364,6 @@ LaTeX Info: Redefining \% on input line 8.
 LaTeX Warning: Label `fig:xess' multiply defined.
 
 
-LaTeX Warning: Label `fig:crysp' multiply defined.
-
-
 LaTeX Warning: Label `viajes2024' multiply defined.
 
 
@@ -512,51 +509,66 @@ Package pdftex.def Info: img/wvfm.png  used on input line 160.
 File: img/DEMO-TPC.png Graphic file (type png)
 <use img/DEMO-TPC.png>
 Package pdftex.def Info: img/DEMO-TPC.png  used on input line 187.
-(pdftex.def)             Requested size: 284.52756pt x 272.93591pt.
+(pdftex.def)             Requested size: 237.01411pt x 227.32518pt.
 <img/DEMO-Fibras.png, id=52, 2153.646pt x 2669.172pt>
 File: img/DEMO-Fibras.png Graphic file (type png)
 <use img/DEMO-Fibras.png>
 Package pdftex.def Info: img/DEMO-Fibras.png  used on input line 188.
-(pdftex.def)             Requested size: 284.52756pt x 352.62505pt.
+(pdftex.def)             Requested size: 237.01411pt x 293.73201pt.
  [7 <./img/wvfm.png>] [8 <./img/DEMO-TPC.png> <./img/DEMO-Fibras.png>]
-<img/cryo0.png, id=63, 197.538pt x 154.176pt>
-File: img/cryo0.png Graphic file (type png)
-<use img/cryo0.png>
-Package pdftex.def Info: img/cryo0.png  used on input line 209.
-(pdftex.def)             Requested size: 227.62204pt x 177.66092pt.
-<img/eres.png, id=64, 317.0244pt x 141.1674pt>
-File: img/eres.png Graphic file (type png)
-<use img/eres.png>
-Package pdftex.def Info: img/eres.png  used on input line 210.
-(pdftex.def)             Requested size: 341.43306pt x 152.04707pt.
- [9 <./img/cryo0.png> <./img/eres.png>] [10]
+<img/fbpet_sim.pdf, id=64, 508.43022pt x 413.49329pt>
+File: img/fbpet_sim.pdf Graphic file (type pdf)
+<use img/fbpet_sim.pdf>
+Package pdftex.def Info: img/fbpet_sim.pdf  used on input line 216.
+(pdftex.def)             Requested size: 435.32422pt x 354.0515pt.
+ [9 <./img/fbpet_sim.pdf>]
+<img/sipm_matrix.jpg, id=92, 1346.02875pt x 930.47626pt>
+File: img/sipm_matrix.jpg Graphic file (type jpg)
+<use img/sipm_matrix.jpg>
+Package pdftex.def Info: img/sipm_matrix.jpg  used on input line 237.
+(pdftex.def)             Requested size: 241.84843pt x 167.18034pt.
+<img/small_animal.jpg, id=93, 497.86pt x 458.71375pt>
+File: img/small_animal.jpg Graphic file (type jpg)
+<use img/small_animal.jpg>
+Package pdftex.def Info: img/small_animal.jpg  used on input line 248.
+(pdftex.def)             Requested size: 241.84843pt x 222.83287pt.
+ [10 <./img/sipm_matrix.jpg>]
+<img/criostato_cad.png, id=97, 619.31375pt x 547.04375pt>
+File: img/criostato_cad.png Graphic file (type png)
+<use img/criostato_cad.png>
+Package pdftex.def Info: img/criostato_cad.png  used on input line 260.
+(pdftex.def)             Requested size: 237.01411pt x 209.35623pt.
+<img/criostato_instalacion.jpg, id=98, 1156.32pt x 1392.20125pt>
+File: img/criostato_instalacion.jpg Graphic file (type jpg)
+<use img/criostato_instalacion.jpg>
+Package pdftex.def Info: img/criostato_instalacion.jpg  used on input line 261.
+(pdftex.def)             Requested size: 169.29684pt x 203.82901pt.
+ [11 <./img/small_animal.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11]
+[12 <./img/criostato_cad.png> <./img/criostato_instalacion.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13] [14] [15] (./nuess-2024-jus.aux
+[15] [16] (./nuess-2024-jus.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -570,18 +582,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14726 strings out of 474172
- 293090 string characters out of 5745767
- 1944539 words of memory out of 5000000
- 36815 multiletter control sequences out of 15000+600000
+ 14756 strings out of 474172
+ 293959 string characters out of 5745767
+ 1942539 words of memory out of 5000000
+ 36845 multiletter control sequences out of 15000+600000
  565595 words of font info for 64 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 101i,18n,107p,1764b,421s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on nuess-2024-jus.pdf (16 pages, 21912378 bytes).
+ 101i,18n,107p,1764b,419s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on nuess-2024-jus.pdf (17 pages, 23252529 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 185 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
