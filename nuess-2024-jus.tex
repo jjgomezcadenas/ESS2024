@@ -3,6 +3,7 @@
 %\documentclass[12pt,a4paper]{memoir} % for a long document
 \documentclass[12pt,a4paper,article]{report} % for a short document
 \usepackage[spanish]{babel}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
 
 \title{Programa de física de neutrinos de Euskadi: Memoria científica 2024}
 %\author{J.J. Gómez-Cadenas, F. Monrabal, F. L\'opez-Gejo \\ Donostia International Physics Center}
@@ -28,7 +29,7 @@
 \def\ged{{\bf GeHP1}}
 \def\ced{{\bf CsIDemo}}
 \def\gap{{\bf GaP}}
-\def\crysp{{\bf CrysP}}
+\def\crysp{{\bf CRYSP }}
 \def\ness{{\bf nESS}}
 %%% BEGIN DOCUMENT
 \begin{document}
@@ -41,7 +42,7 @@
 %\section{}
 %\subsection{}
 
-El programa de de física de neutrinos de Euskadi, en el que participan varios centros de excelencia del País Vasco (DIPC, CFM, UPV/EHU)  propone destacadas contributions a varios experimentos de neutrinos de primera talla mundial. 
+El programa de de física de neutrinos de Euskadi, en el que participan varios centros de excelencia del País Vasco (DIPC, CFM, UPV/EHU)  propone destacadas contributions a varios experimentos de neutrinos de primera talla mundial.
 
 En concreto, nuestros grupos lideran varias tecnología punteras para detectar dispersión coherente de neutrinos, lo que nos permite proponer experimentos de alta precisión en varias fuentes de neutrinos diferentes. Durante los últimos años, nos hemos focalizado en la Fuente Europea de Espalación de neutrones (European Spallation Source, ESS). La ESS, cuya puesta en marcha está prevista para 2026/2027, tiene el potencial de convertirse en una de las fuentes de neutrinos más importantes del mundo. Sin embargo, los retrasos en la puesta en marcha de esta facilidad, nos ha llevado a explorar otras posibilidades, en concreto, la posibilidad de realizar experimentos en la fuente de neutrones de JPARC, en Japón. Nuestro grupo ha propuesto programas experimentales a ambas facilidades. Hay que resaltar que se trata de programas compatibles, dado el considerable retraso de la ESS.  Por último, pero no por ello menos importante, estamos realizando un experimento de medida del flujo de neutrinos (usando dispersión elástica coherente) en la central nuclear de Vandellós
 
@@ -49,13 +50,13 @@ Por otra parte, Euskadi lidera el experimento NEXT que busca demostrar que el ne
 
 Finalmente, el DIPC juega un importante papel en la colaboración Hyper-Kamiokande, que está construyendo en la actualidad un detector de medio millón de toneladas, que supondrá un auténtico observatorio de neutrinos, con un rico programa de física que abarca desde el estudio de oscilación de neutrinos hasta la observación de Supernovas.
 
-Además de nuestra extensa participación en experimentos de física fundamental, el programa de física de neutrinos de Euskadi está desarrollando aplicaciones a la sociedad de nuestras tecnologías, que, en concreto, han llevado a CRYSP, un proyecto que propone desarrollar un scanner PET de cuerpo completo basado en cristales monolíticos de Yoduro de Cesio operando a temperaturas criogénicas.
+Además de nuestra extensa participación en experimentos de física fundamental, el programa de física de neutrinos de Euskadi está desarrollando aplicaciones a la sociedad de nuestras tecnologías, que, en concreto, han llevado a \crysp, un proyecto que propone desarrollar un scanner PET de cuerpo completo basado en cristales monolíticos de Yoduro de Cesio operando a temperaturas criogénicas.
 
 
 
 \section*{Los programas experimentales de física de neutrinos}
 
-En esta sección ofrecemos un conciso resumen de los programas experimentales en marcha en Euskadi. 
+En esta sección ofrecemos un conciso resumen de los programas experimentales en marcha en Euskadi.
 
 \subsection*{NEXT}
 
@@ -68,7 +69,7 @@ En esta sección ofrecemos un conciso resumen de los programas experimentales en
 \end{center}
 \end{figure}
 
-El experimento NEXT busca demostrar que el neutrino es su propia antipartícula mediante la detección de desintegraciones beta sin neutrinos ($\beta\beta0\nu$) que podrían producirse en el isótopo ${}^{136}$Xe del Xenón. Para ello, a lo largo de los últimos quince años, la colaboración internacional, liderada en la actualidad por el DIPC\footnote{J.J. Gómez Cadenas es el spokesperon, F. Monrabal el coordinador técnico y los coordinadores de operación son R. Soleti, H. Almazán y J. Pelegrín, todos ellos personal DIPC.} ha desarrollado una serie de cámaras de proyección temporal (TPCs) operando a alta presión. En la actualidad, el detector NEXT-100, que contiene 100 kilos de xenon enriquecido al 90\% en ${}^{136}$Xe ha entrado en operación en el LSC. Se trata de un aparato único en el mundo, cuyo principal objetivo es demostrar que la tecnología HPXe (cámaras TPC a alta presión) puede extenderse a detectores albergando masas de una tonelada. El programa NEXT incluye la operación inicial de NEXT-100 (2025-2027), seguida de una importante mejora técnica que implica la instalación de un detector de fibras óptica que permitirá una medida óptima de la energía (2027) y de la propuesta de construcción de un detector de una tonelada. Para ello se está estudiando la colaboración con el experimento KamLAND-Zen, que posee en la actualidad una tonelada de Xenón enriquecido y cuyo programa experimental concluye en 2030, fecha a partir de la cual podría construirse un futuro detector NEXT-ZEN con la tecnología demostrada por NEXT-100 y una masa total de una tonelada.  Este detector tendría un altísimo potencial de realizar un descubrimiento fundamental. 
+El experimento NEXT busca demostrar que el neutrino es su propia antipartícula mediante la detección de desintegraciones beta sin neutrinos ($\beta\beta0\nu$) que podrían producirse en el isótopo ${}^{136}$Xe del Xenón. Para ello, a lo largo de los últimos quince años, la colaboración internacional, liderada en la actualidad por el DIPC\footnote{J.J. Gómez Cadenas es el spokesperson, F. Monrabal el coordinador técnico y los coordinadores de operación son R. Soleti, H. Almazán y J. Pelegrín, todos ellos personal DIPC.} ha desarrollado una serie de cámaras de proyección temporal (TPCs) operando a alta presión. En la actualidad, el detector NEXT-100, que contiene 100 kilos de xenon enriquecido al 90\% en ${}^{136}$Xe ha entrado en operación en el LSC. Se trata de un aparato único en el mundo, cuyo principal objetivo es demostrar que la tecnología HPXe (cámaras TPC a alta presión) puede extenderse a detectores albergando masas de una tonelada. El programa NEXT incluye la operación inicial de NEXT-100 (2025-2027), seguida de una importante mejora técnica que implica la instalación de un detector de fibras óptica que permitirá una medida óptima de la energía (2027) y de la propuesta de construcción de un detector de una tonelada. Para ello se está estudiando la colaboración con el experimento KamLAND-Zen, que posee en la actualidad una tonelada de Xenón enriquecido y cuyo programa experimental concluye en 2030, fecha a partir de la cual podría construirse un futuro detector NEXT-ZEN con la tecnología demostrada por NEXT-100 y una masa total de una tonelada.  Este detector tendría un altísimo potencial de realizar un descubrimiento fundamental.
 
 \subsection*{Hyper-Kamiokande}
 
@@ -82,7 +83,7 @@ Las tecnologías en desarrollo para los experimentos de física coherente de neu
 \item El detector  \gess, basado en cristales monolíticos de germanio con ruido extremadamente bajo.
 \end{enumerate}
 
-Las tres tecnologías se están desarrollando en el DIPC. En la actualidad contemplamos la instalación de \gess\ y \cess\ en una primera fase en JPARC, con una segunda fase en la ESS en la que se instalarían estos dos detectores junto a  \xess.  
+Las tres tecnologías se están desarrollando en el DIPC. En la actualidad contemplamos la instalación de \gess\ y \cess\ en una primera fase en JPARC, con una segunda fase en la ESS en la que se instalarían estos dos detectores junto a  \xess.
 
 \section*{El detector \xess: Diseño de base y R\&D}
 
@@ -96,7 +97,7 @@ Las tres tecnologías se están desarrollando en el DIPC. En la actualidad conte
 \end{center}
 \end{figure}
 
-La figura \ref{fig:xess} muestra dos elementos cruciales de \xess, la cámara de presión y uno de los planos de sensores. El detector \xess\ es una cámara de proyección temporal optimizada para operar a muy alta presión (hasta 50 bares) y leída por dos planos de fotomultiplicadores (PMTs). La ventaja de este diseño es su simplicidad y robustez, así como la disponibilidad de PMTs de excelentes prestaciones (buena sensibilidad en la zona del UV donde emite el xenon y muy baja radioactividad). Un avance importante durante 2024 ha sido la recuperación del detector NEXT-White, tras completar su operación en el LSC. La vasija de alta presión de NEXT-White posee las característica apropiadas para \xess. Disponemos también de los PMTs necesarios para operar el detector, como se ilustra en la figura. 
+La figura \ref{fig:xess} muestra dos elementos cruciales de \xess, la cámara de presión y uno de los planos de sensores. El detector \xess\ es una cámara de proyección temporal optimizada para operar a muy alta presión (hasta 50 bares) y leída por dos planos de fotomultiplicadores (PMTs). La ventaja de este diseño es su simplicidad y robustez, así como la disponibilidad de PMTs de excelentes prestaciones (buena sensibilidad en la zona del UV donde emite el xenon y muy baja radioactividad). Un avance importante durante 2024 ha sido la recuperación del detector NEXT-White, tras completar su operación en el LSC. La vasija de alta presión de NEXT-White posee las característica apropiadas para \xess. Disponemos también de los PMTs necesarios para operar el detector, como se ilustra en la figura.
 
 
 No obstante, existe la posibilidad de mejorar la eficiencia de detección usando SiPMs (sensible al UV) o  fibras ópticas. Ambas tecnologías son parte de nuestro programa de R\&D y serán estudiadas por los prototipos \gap\ y \xed. En caso de que los resultados sean lo bastante prometedores, se introducirán dichos sensores en una segunda fase de operación de \xess. El desarrollo de la calorimetría basada en fibras ópticas es por tanto sinérgico entre el programa de física coherente de neutrinos y el programa NEXT. 
@@ -120,20 +121,20 @@ No obstante, existe la posibilidad de mejorar la eficiencia de detección usando
 \end{center}
 \end{figure}
 
-El detector \ged\ es el primer módulo completo de la tecnología \gess. Consiste en un cristal monolítico gigante de germanio ultrapuro leído por electrónica de bajísimo ruido. Se trata de un aparato único en el mundo por su umbral de detección extremadamente reducido, que permitirá medidas de gran precisión en la ESS. 
-%A lo largo de 2023 se ha completado su puesta a punto y planeamos realizar una primera ronda de medidas, a lo largo de 2024, en la central nuclear de Vandellós (CNV). 
+El detector \ged\ es el primer módulo completo de la tecnología \gess. Consiste en un cristal monolítico gigante de germanio ultrapuro leído por electrónica de bajísimo ruido. Se trata de un aparato único en el mundo por su umbral de detección extremadamente reducido, que permitirá medidas de gran precisión en la ESS.
+%A lo largo de 2023 se ha completado su puesta a punto y planeamos realizar una primera ronda de medidas, a lo largo de 2024, en la central nuclear de Vandellós (CNV).
 
 
-El aparato está operando en la central nuclear de Vandellós (CNV). Se trata de un hito importantísimo. Una central nuclear es una fuente intensísima de neutrinos de energías similares a los que se producen en la ESS (figura \ref{fig:nuflux}) y por tanto apropiados tanto para caracterizar los detectores como para realizar medidas de física complementarias. Por otra parte, para poder aprovechar esos neutrinos es necesario situar un detector en una posición muy cercana al reactor y a la vez muy bien blindada de los neutrones y la radioactividad que se producen allí. Se da la extraordinaria circunstancia de que la CNV posee una ``galería de tendones'' que goza exactamente de esas características.  Tras obtener el permiso de operación estamos ya tomando datos en CNV, con un programa que se extenderá a lo largo de todo el 2025. 
+El aparato está operando en la central nuclear de Vandellós (CNV). Se trata de un hito importantísimo. Una central nuclear es una fuente intensísima de neutrinos de energías similares a los que se producen en la ESS (figura \ref{fig:nuflux}) y por tanto apropiados tanto para caracterizar los detectores como para realizar medidas de física complementarias. Por otra parte, para poder aprovechar esos neutrinos es necesario situar un detector en una posición muy cercana al reactor y a la vez muy bien blindada de los neutrones y la radioactividad que se producen allí. Se da la extraordinaria circunstancia de que la CNV posee una ``galería de tendones'' que goza exactamente de esas características.  Tras obtener el permiso de operación estamos ya tomando datos en CNV, con un programa que se extenderá a lo largo de todo el 2025.
 
 
 \section*{Progreso científico durante 2024}
 
 A lo largo del año 2024, se han completado las siguientes tareas:
 \begin{itemize}
-\item Operación del Prototipo Gaseoso (\gap), primer aparato de medida para el proyecto \xess. 
-\item Construcción de un criostato para operación criogénica de cristales de CsI, necesario como primer prototipo, tanto para el detector  \cess\ como para el scanner CRYSP. 
-\item Construcción de un evaporador de TPB, necesario para todos los proyectos relacionados con las cámaras de xenón, ya que este emite luz ultravioleta muy dura (173 nm) que debe desplazarse mediante un cambiador molecular (tetraphenil-butiadeno, TPB) hacia longitudes de onda donde operan bien los sensores ópticos como SiPMs y PMTs (e.g, 420 nm).  
+\item Operación del Prototipo Gaseoso (\gap), primer aparato de medida para el proyecto \xess.
+\item Construcción de un criostato para operación criogénica de cristales de CsI, necesario como primer prototipo, tanto para el detector  \cess\ como para el scanner \crysp.
+\item Construcción de un evaporador de TPB, necesario para todos los proyectos relacionados con las cámaras de xenón, ya que este emite luz ultravioleta muy dura (173 nm) que debe desplazarse mediante un cambiador molecular (tetraphenil-butiadeno, TPB) hacia longitudes de onda donde operan bien los sensores ópticos como SiPMs y PMTs (e.g, 420 nm).
 \item Preparación del primer prototipo de CRISP. 
 \item Construcción del detector \xed, un aparato de escala intermedia (5 kg de xenón) que permitirá estudiar varias tecnologías para \xess.  
  
@@ -164,7 +165,7 @@ Además, se ha equipado el área experimental en Miramon,  que en la actualidad 
 
 El detector \gap\ (figura \ref{fig:gap}) es el primer prototipo del futuro detector \xess\ (el segundo prototipo, \xed, se construirá en 2024). El objetivo de \gap\ es  caracterizar la técnica de detección coherente de neutrinos en el régimen de baja energía, ($\sim$keV), donde la señal producida por la dispersión elástica de neutrinos con núcleos as alta. El aparato es una pequeña TPC cuya región de deriva era originalmente de 2 cm (en la actualidad ha sido ampliada a 10 cm). Utiliza electroluminescencia para amplificar la señal, siendo la región de amplificación de 0.9 cm. En la primera versión del aparato, la luz producida es detectada por 7 tubos fotomultiplicadores modelo Hamamatsu R7378A. Entre la región de producción de luz y los fotosensores hay una ventana de cuarzo recubierta con tetrafenil butadieno (TPB), un cambiador de longitud onda que desplaza la luz de centelleo de los gases nobles, en el ultravioleta (170 nm), al azul (420 nm), facilitando su detección.
 
-El detector se ha construido durante la primera mitad de 2023 y operó por primera vez en verano de ese año, con argón a 9.5 bares. Dos fuentes radiactivas, una de ${}^{83m}$Kr y otra de ${}^{241}$Am, fueron empleadas para calibrar el detector. La figura \ref{fig:wvf} muestra la respuesta típica del detector a un evento de desintegración de ${}^{241}$Am, en el que se produce una partícula alpha que interacciona en el gas, produciendo una rápida señal de electroluminescencia (S1), seguida, algunos microsegundos más tarde por una segunda señal, más intensa correspondiente a la amplificación en el ánodo (S2). En la figura se muestra la señal de 5 fotomultiplicadores diferentes. El primer pulso se corresponde con S1, mientras que el segundo pulso se corresponde S2. 
+El detector se ha construido durante la primera mitad de 2023 y operó por primera vez en verano de ese año, con argón a 9.5 bares. Dos fuentes radiactivas, una de ${}^{83m}$Kr y otra de ${}^{241}$Am, fueron empleadas para calibrar el detector. La figura \ref{fig:wvf} muestra la respuesta típica del detector a un evento de desintegración de ${}^{241}$Am, en el que se produce una partícula alpha que interacciona en el gas, produciendo una rápida señal de electroluminescencia (S1), seguida, algunos microsegundos más tarde por una segunda señal, más intensa correspondiente a la amplificación en el ánodo (S2). En la figura se muestra la señal de 5 fotomultiplicadores diferentes. El primer pulso se corresponde con S1, mientras que el segundo pulso se corresponde S2.
 
 Los primeros estudios han indicado una eficiencia de colección de luz, de alrededor del 1\%. Para mejorar esa eficiencia, se han introducido una serie de mejoras en el aparato durante la segunda mitad de 2023. En concreto:
 \begin{enumerate}
@@ -174,7 +175,7 @@ Los primeros estudios han indicado una eficiencia de colección de luz, de alred
 \item Se han acercado considerablemente los sensores a la zona de amplificación para maximizar el ángulo solido de detección. Para ello se ha suprimido la ventana de cuarzo situada entre región de amplificación y fotosensores. Asimismo, los fotomultiplicadores (PMTs) han sido recubiertos directamente con TPB para aumentar la eficiencia de colección.
 \end{enumerate}
 
-La operación de \gap, incluyendo todas estas mejoras se realizará a lo largo 
+La operación de \gap, incluyendo todas estas mejoras se realizará a lo largo
 del año 2024. En una segunda etapa, también en 2024, se sustituirán los PMTs for SiPMs de gran área, sensibles a la luz ultravioleta. Esto permitirá evaluar cuantitativamente las prestaciones de ambas técnicas de detección. 
 
 
@@ -191,7 +192,7 @@ del año 2024. En una segunda etapa, también en 2024, se sustituirán los PMTs 
 \end{center}
 \end{figure}
 
-Tras el prototipo {\bf GAP}, el detector 
+Tras el prototipo {\bf GAP}, el detector
 \xed\ permitirá escalar la tecnología de detección de neutrinos basada en cámaras de gas a un tamaño compatible con experimentos en la ESS.
 
 La figura \ref{fig:Xe-DEMO}  muestra un esquema del detector. La vasija externa, con dimensiones de 730 mm de diámetro y 1420 mm de largo, puede resistir presiones en exceso de 20 atmósferas. La instrumentación interna divide el aparato en dos mitades simétricas. En cada una de las mitades se instala una cámara de proyección temporal (TPCs), con un cátodo común y dos ánodos simétricos ({\em field cage}). El diámetro de cada TPC es de 350 mm y su longitud es de 270 mm.  Una rejilla electroluminescente permite ampliar la señal de los electrones de deriva en cada ánodo. Los planos de detección situados detrás de cada uno de estos ({\em tracking plane}) estarán basados en SiPMs. Además, el detector incluye un barril de fibras cuyo objetivo es medir de manera uniforme la energía del evento y proporcionar un trigger. 
@@ -213,13 +214,13 @@ A lo largo de 2023 se ha completado casi totalmente el diseño del aparato que s
 \end{figure}
 
 
-El prototipo \crysp\ consiste en dos cristales de CsI, ($3\times 3 \times 20$ mm$^3$), situados frente frente en el interior de un criostato y operando a la temperatura del nitrógeno líquido. Una fuente de ${}^{22}$Na, permite medir la respuesta de ambos cristales (en coincidencia) a fotones de 511 keV (figura \ref{fig:crysp} panel izquierdo). El objetivo de este prototipo es ganar experiencia con la operación en frío de cristales de 
-CsI puros y realizar una primera medida de la resolución en energía que dichos cristales pueden alcanzar (figura \ref{fig:crysp} panel derecho). La resolución en energía es del orden del 6-7\%, casi un factor 2 mejor de la resolución obtenida por cristales de LYSO (que se consideran un estándar de instrumentación). Esta excelente resolución es posible gracias a la gran luminosidad de los cristales de CsI puros en modo criogénico (del orden de 10$^5$ fotones por MeV) y permite un umbral de detección muy bajo para interacciones de neutrinos. 
+El prototipo \crysp consiste en dos cristales de CsI, ($3\times 3 \times 20$ mm$^3$), situados frente frente en el interior de un criostato y operando a la temperatura del nitrógeno líquido. Una fuente de ${}^{22}$Na, permite medir la respuesta de ambos cristales (en coincidencia) a fotones de 511 keV (figura \ref{fig:crysp} panel izquierdo). El objetivo de este prototipo es ganar experiencia con la operación en frío de cristales de
+CsI puros y realizar una primera medida de la resolución en energía que dichos cristales pueden alcanzar (figura \ref{fig:crysp} panel derecho). La resolución en energía es del orden del 6-7\%, casi un factor 2 mejor de la resolución obtenida por cristales de LYSO (que se consideran un estándar de instrumentación). Esta excelente resolución es posible gracias a la gran luminosidad de los cristales de CsI puros en modo criogénico (del orden de 10$^5$ fotones por MeV) y permite un umbral de detección muy bajo para interacciones de neutrinos.
 
 El sistema se mejorará a lo largo de 2024, incorporando varias mejoras:
 
 \begin{enumerate}
-\item Se reemplazarán los pequeños cristales de \crysp\ por cristales monolíticos mucho mayores ($50 \times 50 \times 50$ mm$^3$). 
+\item Se reemplazarán los pequeños cristales de \crysp por cristales monolíticos mucho mayores ($50 \times 50 \times 50$ mm$^3$).
 \item Se utilizarán arrays de SiPMs de mayor ganancia y electrónica rápida de bajo ruido.  
 \item Se instalarán los cristales en el interior de un nuevo criostato de mejores prestaciones (aislamiento, estabilidad térmica). 
 \end{enumerate}
@@ -383,7 +384,7 @@ A lo largo de 2023 se ha realizado una importante inversión para equipar la nue
 
 \subsection*{Infraestructuras, consumibles y equipos para laboratorio}
  
- El equipamiento de los laboratorios incluye la construcción de una mesa óptica equipada con una caja negra y una prensa, así como la adquisición de productos químicos necesarios para limpieza de piezas (agua destilada, alcohol, ácido nítrico), gases, abrazaderas,  válvulas, juntas, tornillería y otros consumibles. También se han comprado los elementos necesarios para construir una tienda limpia en cuyo interior operará el detector \xed\ y piezas necesarias para la mejora de \gap\ y la construcción del criostato de \crysp. 
+ El equipamiento de los laboratorios incluye la construcción de una mesa óptica equipada con una caja negra y una prensa, así como la adquisición de productos químicos necesarios para limpieza de piezas (agua destilada, alcohol, ácido nítrico), gases, abrazaderas,  válvulas, juntas, tornillería y otros consumibles. También se han comprado los elementos necesarios para construir una tienda limpia en cuyo interior operará el detector \xed\ y piezas necesarias para la mejora de \gap\ y la construcción del criostato de \crysp.
  
  
  \begin{table}[h!]
@@ -422,16 +423,16 @@ A lo largo de 2023 se ha realizado una importante inversión para equipar la nue
 \end{table}%
 
  \begin{table}[h!]
-\caption{\large{\textbf{\crysp\ y preparación \ced}}}
+\caption{\large{\textbf{\crysp y preparación \ced}}}
 \begin{center}
 \begin{tabular}{p{0.50\linewidth}   r }%p{0.25\linewidth} r}
 
 \textbf{Concepto}&\makecell[l]{ \textbf{Cantidad} } \\ \\  \hline\hline
 \\
 {\footnotesize {Cryostato (\crysp) }}&{\footnotesize {3,876 \euro{} }}  \\
-{\footnotesize {Cristales CsI (\crysp) }}&{\footnotesize {956 \euro{} }}  \\ 
+{\footnotesize {Cristales CsI (\crysp) }}&{\footnotesize {956 \euro{} }}  \\
 {\footnotesize {Cristales CsI (Tl) (\ced)}}&{\footnotesize {8,449 \euro{} }} \\
-{\footnotesize {Electrónica \crysp}}&{\footnotesize {1348 \euro{} }}  \\ 
+{\footnotesize {Electrónica \crysp}}&{\footnotesize {1348 \euro{} }}  \\
 
 \makecell[l] {\textbf{Total \xed}}&\textbf{14,629 \euro{}}  \\  \\ \hline \hline 
 \end{tabular}
@@ -459,7 +460,7 @@ Los gastos totales ascienden a 500,588 \euro. Se justifican 500,000 \euro.
 {\footnotesize {Equipamiento de laboratorio}}&{\footnotesize {21,803 \euro{} }}  \\
 {\footnotesize {Evaporador molecular}}&{\footnotesize {62,714 \euro{} }}  \\ 
 {\footnotesize \gap\ y \xed}&{\footnotesize {66,536 \euro{} }}  \\ 
-{\footnotesize \crysp\ y \ced}&{\footnotesize {14,629 \euro{} }}  \\ 
+{\footnotesize \crysp y \ced}&{\footnotesize {14,629 \euro{} }}  \\
 \makecell[l] {\textbf{Total}}&\textbf{500,588 \euro{}}  \\  \\ \hline \hline 
 \end{tabular}
 \end{center}
